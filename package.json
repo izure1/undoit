@@ -1,0 +1,35 @@
+{
+  "name": "undoit",
+  "version": "1.0.0",
+  "description": "Simple undo, redo system for JavaScript/TypeScript.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/typings/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "node build/index.js & tsc"
+  },
+  "keywords": [
+    "undo",
+    "redo",
+    "state",
+    "history",
+    "command"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izure1/undoit.git"
+  },
+  "author": "izure1 <admin@izure.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "esbuild": "^0.17.18",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
