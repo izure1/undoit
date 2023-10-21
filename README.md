@@ -1,6 +1,7 @@
 # Undoit
 
 [![](https://data.jsdelivr.com/v1/package/npm/undoit/badge)](https://www.jsdelivr.com/package/npm/undoit)
+![Node.js Workflow](https://github.com/izure1/undoit/actions/workflows/node.js.yml/badge.svg)
 
 Simple undo, redo system for JavaScript/TypeScript.
 
