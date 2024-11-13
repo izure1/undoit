@@ -1,15 +1,15 @@
 {
   "name": "undoit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple undo, redo system for JavaScript/TypeScript.",
   "main": "dist/cjs/index.cjs",
   "module": "dist/esm/index.mjs",
-  "types": "dist/typings/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/esm/index.mjs",
-      "require": "./dist/cjs/index.cjs",
-      "types": "./dist/typings/index.d.ts"
+      "require": "./dist/cjs/index.cjs"
     }
   },
   "files": [
@@ -33,10 +33,9 @@
   "author": "izure1 <admin@izure.org>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^29.5.1",
-    "esbuild": "^0.17.18",
-    "jest": "^29.5.0",
-    "ts-jest": "^29.1.0",
-    "typescript": "^5.0.4"
+    "@types/jest": "^29.5.14",
+    "esbuild": "^0.24.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
   }
 }
