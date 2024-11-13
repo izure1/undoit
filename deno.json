@@ -1,0 +1,21 @@
+{
+  "name": "@izure/undoit",
+  "version": "0.0.1",
+  "description": "Simple undo, redo system for JavaScript/TypeScript.",
+  "author": "izure1 <admin@izure.org>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izure1/undoit.git"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publish": {
+    "include": [
+      "LICENSE",
+      "README.md",
+      "src/**/*.ts"
+    ]
+  }
+}

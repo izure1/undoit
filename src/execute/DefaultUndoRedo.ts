@@ -4,7 +4,7 @@ export class DefaultUndoRedo<T extends DefaultAction<ActionCallback|AsyncActionC
   protected _undoStack: T[]
   protected _redoStack: T[]
 
-  protected static BusyError() {
+  protected static BusyError(): Error {
     return new Error(`The 'execute', 'undo', 'redo' cannot be executed because the operation is currently running.`)
   }
 

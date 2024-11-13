@@ -10,7 +10,7 @@ export class StateHistory<T> {
     this._command = new UndoRedo()
   }
 
-  get data() {
+  get data(): T {
     return this._data
   }
 
